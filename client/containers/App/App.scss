@@ -1,0 +1,75 @@
+.mega {
+  height: 100%;
+  font: 14px "Helvetica Neue", Arial, Helvetica, sans-serif;
+  line-height: 18px;
+  color: #4d4d4d;
+  font-weight: normal;
+  position: relative;
+  background-color: #0079bf;
+  margin: 0;
+  zoom: 1;
+}
+
+.header {
+  background: #0067a3;
+  height: 45px;
+  width: 100%;
+  position: fixed;
+  display: block;
+  padding: 10px 10px;
+}
+
+main {
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 100%;
+  white-space: nowrap;
+  zoom: 1;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+main:before,
+main:after {
+  content: "";
+  display: table;
+}
+
+main:after {
+  clear: both;
+}
+
+.desk-container {
+  height: 88%;
+}
+
+.desk,
+.desk-placeholder,
+.desk-placeholder:hover {
+  width: 320px;
+  height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  min-height: 100px;
+  background-color: #e2e4e6;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  border-radius: 3px;
+  padding-bottom: 50px;
+  margin-top: 60px;
+  margin-right: 20px;
+  vertical-align: top;
+  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  -webkit-border-radius: 3px;
+}
+
+.button {
+  background-color: #eee;
+  display: inline-block;
+  height: 28px;
+  width: 60px;
+  padding: 3px 5px;
+  color: #333;
+  cursor: pointer;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+}
