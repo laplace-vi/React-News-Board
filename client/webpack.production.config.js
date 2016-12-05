@@ -38,13 +38,13 @@ module.exports = {
       template: './index.html'
     }),
     new webpack.optimize.UglifyJsPlugin({
-			compress: {
-				warnings: false,
-				screw_ie8: true,
-				drop_console: true,
-				drop_debugger: true
-			}
-		}),
+      compress: {
+        warnings: false,
+        screw_ie8: true,
+        drop_console: true,
+        drop_debugger: true
+      }
+    }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': '"production"'
     })
