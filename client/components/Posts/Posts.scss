@@ -1,0 +1,83 @@
+.desk-items {
+  overflow-y: auto;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.desk-items .placeholder,
+.desk-items .placeholder:hover {
+  height: 161px;
+  background-color: #d0d0d0;
+}
+
+.item {
+  width: 90%;
+  margin: 0 auto 10px;
+  background: #fff;
+  min-height: 100px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  -webkit-transition: 0.15s;
+  -moz-transition: 0.15s;
+  -o-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.item:hover {
+  background: #f7f7f7;
+}
+
+.item .item-name {
+  padding: 5px 10px;
+  border-bottom: 1px solid #dbdbdb;
+  white-space: normal;
+  word-break: break-all;
+}
+
+.item .item-name a:visited{
+  color: #979797;
+}
+
+.item .item-container {
+  padding: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  zoom: 1;
+}
+
+.item .item-container:before,
+.item .item-container:after {
+  content: "";
+  display: table;
+}
+
+.item .item-container:after {
+  clear: both;
+}
+
+.item .item-container .item-content {
+  word-break: break-all;
+  white-space: normal;
+}
+
+.item .item-container .item-content p {
+  margin: 5px 0;
+}
+
+.item .item-annotation {
+  padding: 5px 10px;
+  word-break: break-all;
+  white-space: normal;
+}
+
+.item .item-annotation:before,
+.item .item-annotation:after {
+  content: "";
+  display: table;
+}
+
+.item .item-annotation:after {
+  clear: both;
+}
+
