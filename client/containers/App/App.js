@@ -42,7 +42,7 @@ class App extends Component {
     return (
       <div className="mega">
         <div className="header">
-          <a href="https://github.com/ethan-funny/react-news-board" className="button" target="_blank">
+          <a href="https://github.com/ethan-funny/React-News-Board" className="button" target="_blank">
             <Icon type="github" />
             <span> Star</span>
           </a>
